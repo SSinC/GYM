@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="HeaderForCollectionViewSection">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="9" translatesAutoresizingMaskIntoConstraints="NO" id="Grt-io-Qai">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Grt-io-Qai" secondAttribute="trailing" id="FTI-E3-r4A"/>
+                <constraint firstItem="Grt-io-Qai" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="gsE-JA-V3P"/>
+                <constraint firstItem="Grt-io-Qai" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="rwn-S7-4gi"/>
+                <constraint firstAttribute="bottom" secondItem="Grt-io-Qai" secondAttribute="bottom" id="wWb-dx-1vf"/>
+            </constraints>
+            <connections>
+                <outlet property="coverImageView" destination="Grt-io-Qai" id="aVh-V2-t8E"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="9" width="512" height="720"/>
+    </resources>
+</document>
